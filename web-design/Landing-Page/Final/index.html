@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <img src="https://play-lh.googleusercontent.com/nZ_tOSY5-v2dFEVBHhS9gLP7Crd7_2kLFiJYJRutRfdfH7qnHKVJHRD9Ulsu6UjnBQ" alt="logo" id="header-img">
+                <span class="the-product">CD / DVD</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#audio" class="nav-link">Audio</a></li>
+                <li><a href="#for-sale" class="nav-link">Sale</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <section id="email-section">
+        <h2>Search all different topics</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" required placeholder="Enter your e-mail" name="email" id="email">
+            <input type="submit" id="submit" value="START">
+        </form>
+    </section>
+    <section id="features">
+        <div class="feature">
+            <i class="ri-remixicon-fill ri-4x icon"></i>
+            <div>
+                <h2>All music</h2>
+                <p>Toda la musica que puedas encontrar en esta pagina</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-file-music-line ri-4x icon"></i>
+            <div>
+                <h2>Free music</h2>
+                <p>Toda la musica gratias que puedas encontrar en esta pagina</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-secure-payment-line ri-4x icon"></i>
+            <div>
+                <h2>Premium music</h2>
+                <p>Toda la musica de alta calidad y premium que puedas encontrar en esta pagina</p>
+            </div>
+        </div>
+    </section>
+    <section id="audio">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/XnGv2gwk8As" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <section id="for-sale">
+        <h2>For Sale</h2>
+        <div class="product-cd">
+            <div class="cd">
+                <div class="product-image product1"></div>
+                <div class="inner-cd">
+                    <div class="author">Rihana</div>
+                    <h1 class="header">Diamonds</h1>
+                    <p class="content">The 1st albun</p>
+                    <div class="flex">
+                        <p class="main-price">$15</p>
+                        <p class="old-price">$30</p>
+                    </div>
+                    <button class="add">
+                        <p style="margin-left: 5px">Add to card o pay for Bank</p>
+                    </button>
+                </div>                
+            </div>
+            <div class="cd">
+                <div class="product-image product2"></div>
+                <div class="inner-cd">
+                    <div class="author">Rihana</div>
+                    <h1 class="header">Look at this</h1>
+                    <p class="content">The 2nd albun</p>
+                    <div class="flex">
+                        <p class="main-price">$30</p>
+                        <p class="old-price">$60</p>
+                    </div>
+                    <button class="add">
+                        <p style="margin-left: 5px">Add to card o pay for Bank</p>
+                    </button>
+                </div> 
+            </div>    
+            <div class="cd">
+                <div class="product-image product3"></div>
+                <div class="inner-cd">
+                    <div class="author">Rihana</div>
+                    <h1 class="header">Look at this Vol2</h1>
+                    <p class="content">The 3rd albun</p>
+                    <div class="flex">
+                        <p class="main-price">$60</p>
+                        <p class="old-price">$120</p>
+                    </div>
+                    <button class="add">
+                        <p style="margin-left: 5px">Add to card o pay for Bank</p>
+                    </button>
+                </div>     
+            </div>
+        </div>
+    </section>
+</body>
+</html>
